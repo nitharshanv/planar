@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+/* Insert your styling here. */
+.tabcontent {
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+#video1 {
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  width: 100%;
+  height: auto;
+  justify-self: center;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+  line-height: 1.7;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+}
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: aliceblue;
+  z-index: 4;
+}
+nav * {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 14px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+.nav-container {
+  max-width: 1220px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 66px;
+  padding: 0px 20px;
+  align-items: center;
+}
+.navbar-center {
+  text-align: center;
+  min-width: 680px;
+}
+.navbar-center a {
+  padding: 0px 18px;
+  color: black;
+}
+.navbar-center button {
+  display: none;
+}
+.navbar-center a:hover {
+  text-decoration: underline rgb(89, 134, 230) 5px;
+  text-underline-offset: 25px;
+}
+.nav-get-started {
+  color: white;
+  border-radius: 4px;
+
+  font-weight: 500;
+  padding: 10px 12px;
+  line-height: 14px;
+  border: 1px solid rgb(64, 17, 235);
+  background-color: blue;
+  margin-right: 16px;
+  font-size: 14px;
+}
+.nav-sign-in {
+  margin: 0px 16px;
+}
+nav hr {
+  height: 1px;
+  margin: 0px;
+}
+@media (max-width: 1050px) {
+  #menu-bar {
+    display: inline-block;
+    margin-top: 12px;
+    width: 20px;
+    border-color: white;
+    margin-left: 5px;
+    height: 20px;
+  }
+  .bar {
+    margin: 0px;
+    padding: 0px;
+    width: 18px;
+    height: 2px;
+    display: block;
+    background-color: rgb(5, 15, 25);
+    border-radius: 4px;
+    transition: 0.3s ease;
+  }
+  #bar1 {
+    transform: translateY(-6px);
+  }
+  #bar3 {
+    transform: translateY(-6px);
+  }
+  .change #bar2 {
+    opacity: 0;
+  }
+  .change #bar3 {
+    transform: translateY(-2px) rotateZ(45deg);
+  }
+  .change #bar1 {
+    transform: translateY(-2px) rotateZ(45deg);
+  }
+  .nav-sign-in {
+    display: none;
+  }
+  .navbar-center {
+    min-width: initial;
+  }
+  .navbar-center a,
+  .navbar-center button,
+  .navbar-center {
+    display: none;
+  }
+  .nav-container {
+    height: 60px;
+  }
+  .navbar-left {
+    margin-right: 16px;
+  }
+  .navnar-center {
+    position: fixed;
+    top: 60px;
+    left: 0px;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+    transition: height 0.2s ease-out;
+  }
+  .navnar-center a {
+    text-align: left;
+    padding: 10px 5px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .navnar-center a:hover {
+    text-decoration: none;
+  }
+  .navbar-center button {
+    font-size: 16px;
+    margin: 8px 18px;
+    padding: 20px;
+    min-width: 300px;
+    border-radius: 5px;
+    flex-wrap: nowrap;
+  }
+  .dropdown-sign-in {
+    background-color: white;
+    color: rgb(0, 82, 255);
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(0, 82, 255);
+  }
+  .dropdown {
+    height: calc(100wh-60px);
+    overflow-y: auto;
+  }
+  .dropup {
+    height: 0px;
+    padding: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .navbar-center button {
+    min-width: initial;
+    width: 85%;
+  }
+}

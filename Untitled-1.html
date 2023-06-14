@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Planar - Buy & Sell plans</title>
+    <link rel="icon" type="image/png" href="images\tittle.png" />
+
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="navbar-left">
+                <img src="images/logo.png" alt="failed to load" height="62px" href="#" />
+            </div>
+            <div class="navbar-center">
+                <a class="tablink" onclick="openPage('home', this)" id="defaultOpen">home</button>
+                    <a href="#" class="tablink" onclick="openPage('buy', this)">Buy</a>
+                    <a href="#" class="tablink" onclick="openPage('sell', this)">sell</a>
+                    <a href="#">About</a>
+                    <a href="#">Help</a>
+                    <a href="#">Company</a>
+
+                    <button class="dropdown-get-started">Get started</button>
+                    <button class="dropdown-sign-in">Signin</button>
+            </div>
+            <div class="navbar-right">
+                <a class="nav-sign-in">Sign in</a>
+                <button class="nav-get-started">Get started</button>
+                <div id="menu-bar" onclick="toggleDropdown()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+            </div>
+        </div>
+        <hr />
+    </nav>
+    <p>
+        <br>
+
+    </p>
+
+    <div class="tabcontent" id="home">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 ms auto">
+
+
+                        <h2 class="mb-3 mb-lg text-dark">Buy and Sell plans</h2>
+                        <p>
+                            Are you looking for a new and exciting way to buy and sell plans for buildings online? Do
+                            you
+                            want to access a wide range of designs created and verified by professionals? If yes, then
+                            you
+                            should check out Planar, the ultimate online marketplace for architecture!
+                            <br>
+                            Planar is a platform where you can browse, buy and sell plans for buildings of all types and
+                            sizes. Whether you need a cozy cabin, a modern villa, a concrete house or anything else, you
+                            can
+                            find it on Planar. You can also sell your own plans and earn money from your creativity and
+                            expertise.
+                            <br>
+                            Planar connects you with thousands of architects and engineers who have uploaded their plans
+                            and
+                            assets for you to download and use. You can also contact them directly and request
+                            customizations or consultations. All the plans on Planar are BIM-ready and comply with the
+                            latest standards and regulations.
+                            <br>
+                            Planar is more than just a website, it's a community of passionate and talented people who
+                            love
+                            architecture and design. Join Planar today and discover the best way to buy and sell plans
+                            for
+                            buildings online!...
+                            <br>
+                        </p>
+
+                    </div>
+                    <div class="col-lg-6 ms auto">
+
+                        <figure id="fashion">
+                            <video id="video1" class="video-1" width="100%" height="auto" poster preload autoplay muted
+                                loop>
+
+                                <source src="images\a.mp4" type="video/mp4">
+                            </video>
+                        </figure>
+
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+
+
+        </section>
+
+        <section>
+
+            <div class="row gy-4" style="justify-content: space-between;">
+                <div class="col-md-6">
+                    <div class="card text-center" style="border: none;">
+                        <img style="width:100%; padding: 50px; border-radius: 200px; overflow:hidden;"
+                            src="images\house.jpeg" alt="#" class="card-img-top mx-auto d-block">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                build a house in real life
+                            </h4>
+                            <p class="card-text pb-3">
+                                buy a plan<br> within budget
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card text-center" style="border: none;">
+                        <img style="width:100%; padding: 50px; border-radius: 200px; overflow:hidden;"
+                            src="images\vr.jpeg" alt="#" class="card-img-top mx-auto d-block">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                virtual reality
+                            </h4>
+                            <p class="card-text pb-3">
+                                are you a virtual reality developer<br> get blueprint for awesome builds and <br> buila
+                                awesome things
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card text-center" style="border: none;">
+                        <img style="width:100%; padding: 50px; border-radius: 200px; overflow:hidden;"
+                            src="images\ar.jpeg" alt="#" class="card-img-top mx-auto d-block">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                augmented reality
+                            </h4>
+                            <p class="card-text pb-3">
+                                Create amazing augmented reality buildings with our blue prints!<br>
+                                Explore different styles and designs with a simple tap!
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card text-center" style="border: none;">
+                        <img style="width:100%; padding: 50px ; border-radius: 200px; overflow:hidden;"
+                            src="images\eifel.jpeg" alt="#" class="card-img-top mx-auto d-block">
+                        <div class="card-body">
+                            <h4 class="card-title">
+                                Minecraft
+                            </h4>
+                            <p class="card-text pb-3">
+                                crazy mine craft builders<br>
+                                you can start build crazy things
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!--buy-->
+    <div id="buy" class="tabcontent">
+
+        <section id="buy_1">
+
+
+        </section>
+    </div>
+
+
+    <!--sell--->
+    <div id="sell" class="tabcontent">
+
+        <table>
+            <tr>
+                <th>thumpnail </th>
+                <td>
+                    <input type="file" id="myFile" name="Image" accept=".jpeg,.png">
+                </td>
+            </tr>
+
+            <tr>
+                <th>title </th>
+                <td> <input id="selltitle" type="text"></td>
+            </tr>
+            <tr>
+                <th>price </th>
+                <td> <input id="sellprice" type="text"></td>
+            </tr>
+            <tr>
+                <th>description </th>
+                <td>
+                    <textarea id="selldescription" name="dessciption" rows="4" cols="50"> </textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>soil type</th>
+                <td>
+                    <select id="sellsoiltype">
+                        <option value="sand">sand</option>
+                        <option value="silt">silt</option>
+                        <option value="clay">clay</option>
+                        <option value="Loam">Loam</option>
+                        <option value="peat">peat</option>
+                        <option value="chalky">chalky</option>
+                        <option value="English">English</option>
+                        <option value="organic">organic</option>
+                        <option value="residual">residual</option>
+                        <option value="transported">transported</option>
+                        <option value="alluvial">alluvial</option>
+                        <option value="Hindi">Telungu</option>
+
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>upload blue print</th>
+                <td>
+                    <input type="file" id="sellmainfile" name="Image" accept=".DWG,. DXF">
+                </td>
+            </tr>
+            <tr>
+                <th>youtube video link</th>
+                <td> <input id="sellvideo" type="text"></td>
+            </tr>
+            <tr>
+                <th> </th>
+                <td> <button id="sellsubmit" onclick="logger()"> submit</button></td>
+            </tr>
+
+
+
+
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--footer-->
+    <hr>
+    <div class="col-12">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="images\logo.png" alt="" class="footer_img" height="70px">
+                    <br>
+                    <select id="langs">
+                        <option value="English">English</option>
+                        <option value="Tamil">Tamil</option>
+                        <option value="Hindi">Telungu</option>
+                    </select>
+                    <p class="mb-0 text-dark">
+                        @2023 planar<br>copirighted
+                    </p>
+                    <p class="text-dark">
+                        Blog-Twitter-facebook
+                    </p>
+                </div>
+
+                <div class="col-lg-2 ms auto">
+                    <h5 class="mb-3 mb-lg text-dark">Company</h5>
+                    <u1 class="ps-0">
+                        <li> <a href="#">about</a></li>
+                        <li> <a href="#">about</a></li>
+                        <li> <a href="#">about</a></li>
+                        <li> <a href="#">about</a></li>
+                    </u1>
+
+
+                </div>
+                <div class="col-lg-2 ms auto">
+                    <h5 class="mb-3 mb-lg text-dark">Company</h5>
+                    <u1 class="ps-0">
+                        <li> <a href="#">about</a></li>
+                        <li> <a href="#">about</a></li>
+                        <li> <a href="#">about</a></li>
+                        <li> <a href="#">about</a></li>
+                    </u1>
+
+
+                </div>
+                <div class="col-lg-2 ms auto">
+                    <h5 class="mb-3 mb-lg text-dark">Company</h5>
+                    <u1 class="ps-0">
+                        <li> <a href="#">about</a></li>
+                        <li> <a href="#">about</a></li>
+                        <li> <a href="#">about</a></li>
+                        <li> <a href="#">about</a></li>
+                    </u1>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
